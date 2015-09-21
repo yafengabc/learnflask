@@ -14,6 +14,7 @@ def hello(name):
     print('called nmmr')
     return 'hello bottle'+name
 
-run(host='0.0.0.0',server="bjoern")
+run(host='0.0.0.0')
+#run(host='0.0.0.0',server="paste")
 
 
